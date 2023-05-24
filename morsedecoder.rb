@@ -51,3 +51,14 @@ def decode_word(morse_word)
   end
   word
 end
+
+def decode(morse)
+  words = morse.split('   ')
+  sentence = ''
+  words.each_with_index do |word, index|
+    sentence += decode_word(word)
+    sentence += ' ' if index != words.length - 1
+  end
+  puts sentence
+end
+decode("      .-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...")
