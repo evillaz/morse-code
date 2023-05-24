@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 MORSE_CODE = {
   'A' => '.-',
   'B' => '-...',
@@ -61,4 +59,5 @@ def decode(morse)
   end
   puts sentence
 end
+
 decode('      .-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...')
