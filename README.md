@@ -10,7 +10,6 @@ REQUIRED SECTIONS:
 - Table of Contents
 - About the Project
   - Built With
-  - Live Demo
 - Getting Started
 - Authors
 - Future Features
@@ -33,7 +32,6 @@ After you're finished please remove all the comments and instructions!
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
